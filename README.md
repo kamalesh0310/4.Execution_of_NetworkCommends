@@ -25,7 +25,7 @@ This commands includes
 <BR>
 • Other IP Commands e.g. show ip route etc.
 <BR>
-Server.py:
+## Server.py:
 ~~~
 import socket
 from pythonping import ping
@@ -40,7 +40,7 @@ while True:
     except KeyError:
         c.send("Not Found".encode())
 ~~~
-Client.py:
+## Client.py:
 ~~~
 import socket
 s = socket.socket()
